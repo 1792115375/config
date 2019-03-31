@@ -1,0 +1,11 @@
+from: dev-master-v10
+server:
+    port: 7081
+spring:
+    application:
+        name: trace1
+    sleuth:
+        sampler:
+            percentage: 0.8
+    zipkin:
+        base-url: http://127.0.0.1:9411
