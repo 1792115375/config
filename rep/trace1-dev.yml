@@ -3,7 +3,7 @@ server:
     port: 7081
 spring:
     application:
-        name: ${config.name:trace1,redis}
+        name: trace1
     sleuth:
         sampler:
             percentage: 0.8
