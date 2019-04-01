@@ -13,3 +13,9 @@ spring:
         base-url: http://127.0.0.1:9411
         rabbitmq:
             queue: zipkin
+    rabbitmq:
+        host: 192.168.0.164
+        port: 5672
+        username: admin
+        password: admin
+        virtual-host: /
